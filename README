@@ -1,0 +1,31 @@
+#title   FRAZE
+
+* Script FRAZE for learning phrases and words
+
+Program allows learning phrases and words with using user filled database. Learned phrases are moved to higher levels, so it is possible to learn them again and again up to fixing them in the long term memory.
+
+ | Program version: 2.0
+ | Supported languages: menu English, phrases all
+ | Licence: GNU PL
+ | Operating system: Windows, Linux, Mac OS X
+ | Size: exe 0,5 MB including Ruby
+
+** Program features:
+
+ - Phrases (or words) and their translation are imported to the program database from text files, prepared by user. It is possible to write into import files again and import them again to the program. Only new lines are added.
+ - Program shows phrases randomly according to two algorihms , user considers if he knows translation or no, he let the translation show and fill either y or n according to knowing or not knowing the phrases.
+ - Learned phrases are moved to higher levels. Number of levels is not limited. Phrases in each level are learned independently. Principle of levels makes possible to use theoretic piece of knowledge, that it is not possible to learn phrase in one day. It is necessary to repeat learning several times, the best at least three times using geometric progression, eg. after learning the phrase is repeteadly learned second, fourth and eigth day.
+ - It is possible to switch direction of learning and a range of phrases according to the names of import files.
+ - Program shows statistics, eg. number of phrases in each level from each import file in both directions. 
+ - Algorithms of random choice:
+   - reshuffle after each y
+   - reshuffle, then program goes throw the group of phrases, unlearned phrases sort to the end
+ - One key choice from menu is only <ENTER>, all characters must be followed by key <ENTER>. The best way is to enter y/n with left hand and after <ENTER> with right hand.
+
+*** Windows version
+
+Import files must be written in the same coding as MS-DOS window has. Mostly it means, that import files must be Saved As in MS Word as simple text with MS-DOS coding . 
+
+*** Linux (Mac OS X) version
+It is assumed, that conversions are not necessary, because Linux edit programs and shell has the same coding utf-8.
+
